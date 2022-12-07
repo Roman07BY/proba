@@ -41,23 +41,44 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	font-size: 14px;
 	color: rgb(255, 0, 0);
 }
+.picture{
+
+}
+
 .fon{
-	/*display: flex;*/
 	background-image: url(image/Rectangle30.png);
-	position: relative;
-	background-position: right;
-	z-index: -1;
-	/*background-size: cover;*/
-	/*height: 400px;
-	width: 400px;*/
+	position: absolute;
 }
+
 .pict1{
-	
-	z-index: 0;
+	position: relative;	
 }
+
 .pict2{
-	z-index: 0;
+	position: relative;
+	right: 100px;
+	top: 128px;	
 }
+
 .pict3{
-	z-index: 0;
+	position: relative;
+	right: 150px;
+	top: 30px;
+}
+
+.you{
+	position: relative;
+	bottom: 300px;
+	left: 43.34px;
+}
+
+.vk{
+	padding: 38px 0px;
+}
+
+.menu{
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
+
 }
