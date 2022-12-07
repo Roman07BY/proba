@@ -51,13 +51,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 .pict1{
-	position: relative;	
+	position: relative;
 }
 
 .pict2{
 	position: relative;
 	right: 100px;
-	top: 128px;	
+	top: 128px;
 }
 
 .pict3{
@@ -78,7 +78,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 .menu{
 	display: flex;
+	position: relative;
 	align-items: flex-start;
-	justify-content: flex-end;
-
+	justify-content: center;
+	bottom: 500px;
+	border: 3px #000;
 }
