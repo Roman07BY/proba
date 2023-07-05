@@ -43,7 +43,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 .fon{
-	background-image: url(image/Rectangle30.png);
+	background-image: url(/proba/image/Rectangle30.png);
 	position: absolute;
 	width: 100%;
 	height: 100%;
